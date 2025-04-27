@@ -39,17 +39,20 @@ const About = () => {
         </h1>
 
         {/* About Me Section */}
-        <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed">
-          I’m <span className="font-bold text-blue-400">BOOPATHI</span>,
-          a passionate MERN stack developer with experience in building
-          micro-SaaS projects and delivering 10+ projects for clients. As a
-          tutor, I’ve successfully taught frontend development to more than
-          <span className="font-bold text-blue-400"> 50+ students</span>, and
-          as a content creator, I’ve built a community of
-          <span className="font-bold text-blue-400"> 25k+ followers</span> on
-          social media. Currently, I’m a pre-final year B.Tech student in
-          Computer Science Engineering.
-        </p>
+       <p>
+        My name is <span className="font-bold text-blue-400">BOOPATHI</span>, and I'm deeply passionate about 
+        <span className="font-bold text-blue-400"> frontend technologies</span> and 
+        <span className="font-bold text-blue-400"> cybersecurity</span>. Currently pursuing my B.Tech in Computer Science Engineering as a 
+        <span className="font-bold text-blue-400"> sophomore</span>, I bring strong technical skills paired with a creative mindset.
+        <br /><br />
+        I'm a <span className="font-bold text-blue-400">highly motivated engineering student</span> with a strong foundation in problem-solving 
+        and a keen interest in exploring innovative solutions. With hands-on experience in collaborative team projects, 
+        I've consistently taken on leadership roles to drive success through clear communication and strategic thinking.
+        <br /><br />
+        I'm committed to <span className="font-bold text-blue-400">continuous learning</span> and growth, always striving to stay ahead in the ever-evolving tech landscape. 
+        Whether it's building intuitive user interfaces or securing digital systems, I aim to make a meaningful impact through technology.
+      </p>
+
 
         {/* Skills Section */}
         <div className="space-y-8">
