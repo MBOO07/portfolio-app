@@ -40,7 +40,7 @@ const About = () => {
         </h1>
 
         {/* About Me Text */}
-        <p  className="text-lg md:text-xl text-gray-700 font-medium">
+        <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed">
           I’m <span className="font-bold text-blue-400">BOOPATHI</span>,
           an enthusiastic learner with a strong interest in
           <span className="font-bold text-blue-400"> frontend technologies</span> and
