@@ -33,33 +33,35 @@ const About = () => {
   return (
     <div id="about" className="bg-white min-h-screen flex items-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
+        
         {/* Header */}
         <h1 className="text-4xl md:text-5xl font-bold text-center text-blue-400">
           About Me
         </h1>
 
-        {/* About Me Section */}
-       <p>
-        My name is <span className="font-bold text-blue-400">BOOPATHI</span>, and I'm deeply passionate about 
-        <span className="font-bold text-blue-400"> frontend technologies</span> and 
-        <span className="font-bold text-blue-400"> cybersecurity</span>. Currently pursuing my B.Tech in Computer Science Engineering as a 
-        <span className="font-bold text-blue-400"> sophomore</span>, I bring strong technical skills paired with a creative mindset.
-        <br /><br />
-        I'm a <span className="font-bold text-blue-400">highly motivated engineering student</span> with a strong foundation in problem-solving 
-        and a keen interest in exploring innovative solutions. With hands-on experience in collaborative team projects, 
-        I've consistently taken on leadership roles to drive success through clear communication and strategic thinking.
-        <br /><br />
-        I'm committed to <span className="font-bold text-blue-400">continuous learning</span> and growth, always striving to stay ahead in the ever-evolving tech landscape. 
-        Whether it's building intuitive user interfaces or securing digital systems, I aim to make a meaningful impact through technology.
-      </p>
-
+        {/* About Me Text */}
+        <p>
+          I’m <span className="font-bold text-blue-400">BOOPATHI</span>,
+          an enthusiastic learner with a strong interest in
+          <span className="font-bold text-blue-400"> frontend technologies</span> and
+          <span className="font-bold text-blue-400"> cybersecurity</span>. I’m currently a
+          <span className="font-bold text-blue-400"> sophomore</span> pursuing my B.E in Computer Science Engineering.
+          Highly motivated with a passion for problem-solving and building innovative digital experiences.
+          As a team player, I’ve taken leadership roles in collaborative projects, driving successful outcomes through clear communication and strategy.
+          <span className="font-bold text-blue-400"> Proven leadership</span> in academic and technical settings.
+          Committed to
+          <span className="font-bold text-blue-400"> continuous learning</span> and applying modern solutions to real-world challenges,
+          I aim to make a meaningful impact through technology and creativity.
+        </p>
 
         {/* Skills Section */}
         <div className="space-y-8">
           <h2 className="text-2xl font-bold text-blue-400 text-center">
             My Skills
           </h2>
+          
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            
             {/* Skill Icons */}
             <div className="flex flex-col items-center space-y-2">
               <FaHtml5 size={40} className="text-[#e34c26]" />
